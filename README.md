@@ -1,3 +1,2 @@
 # Kondiprojekt
- Iskolai projektmunka
- Ide kerül majd a leírás
+ Üdvözöllek a projektben
