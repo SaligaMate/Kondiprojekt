@@ -1,2 +1,2 @@
 # Kondiprojekt
- Üdvüzöllek a projektben
+ Üdvözöllek a projektben
