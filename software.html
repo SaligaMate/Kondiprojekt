@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="HU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kondi projekt</title>
+    <style>
+        h1 {
+            background-color: green;
+            border: solid 5px black
+        }
+        h2 {
+            background-color: lightgreen;
+            border: solid 5px black
+        }
+        p {
+            background-color: lightgray;
+        }
+        ul {
+            background-color: lightcyan;
+        }
+        ol {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+<h1>Softver fejlesztés</h1>
+<h2>Softver fejlesztés lépései</h2>
+    <ol>
+        <li>Analízis</li>
+        <li>Tervezés</li>
+        <li>Ködolás</li>
+        <li>Tesztelés/karbantartás</li>
+    </ol>
+<h2>Analízis</h2>
+    <p>Az Analízis során felmérjük a helyzete: mire van <br>szükség, mik a lehetőségek</p>
+    <p>Itt kell dönteni, hogy a feladat megvalósítható-e, <br>mik a célok, meg kell az időt, költségeket.</p>
+<h2>Feladat specifikáció:</h2>
+    <ul>
+        <li>teljes</li>
+        <li>érthető</li>
+        <li>egyértelmű</li>
+        <li>pontos</li>
+        <li>tömör</li>
+        <li>szemléletes</li>
+        <li>előrelátó</li>
+        <li>jól felápített, tagolt</li>
+    </ul>
+<h2>Tervezés</h2>
+    <p>A tervezés feladata az anilízis során összegyűjtött
+        információk és adatokat alapul véve logikailag
+        véglegesen kialakítsa az adat struktúrát és az adatokat manipuláló
+        algoritmusok.
+    </p>
+<h2>Tervezés módszer kiválasztása:</h2>
+    <ul>
+        <li>A számítás technika mely korszakát éljük?</li>
+        <li>Milyen számítógépre készül a program?</li>
+        <li>Mekkora a megoldandó feladat?</li>
+        <li>Milyen módszerek állnak rendelkezésre?</li>
+        <li>Milyen a tervező csoport informáltsága?</li>
+        <li>Van-e anyagi fedezet?</li>
+        <li>Mik a tradíciók?</li>
+        <li>Mi a főnöki utasítás?</li>
+    </ul>
+    <p>A tervezés során a folyamatábra segítségével modellezzük a folyamatokat, algoritmusokat.</p>
+    <p>A tervezés folyamat dokumentációja a <b>programterv</b>. Ezt folyamatosan ellenőrizni, tesztelni kell az elképzelt adatokkal.<br>
+    ,,Fejben lefuttatjuk" programot. Ezt nevezzük <i>száraz tesztnek.</i></p> 
+<h2>Kódolás</h2>
+    <p>Impelamentelás (kivitelezés)</p>
+    <p>Első lépés a programterv kódolás egy a programterv</p>
+    <p>Egy forrásnyelvi lista akkor jó ha az</p>
+    <ul>
+        <li>pontosan a programtev szerint készül</li>
+        <li>áttekinthető olvasható</li>
+        <li>tömör, és egyyértelmű megjegyéssekell van kiehészítve</li>
+    </ul>
+    <p>Szintaktikai hibák javítása történik.</p>
+<h2>Tesztelés</h2>
+    <p>Próbafutások alkalmával természetes, hogy hibát észlelünk</p>
+    <p>Szemantikai hiba: logikai hibát észlelünk</p>
+    <p>Teszelés feladata:</p>
+     <ul>
+         <li>szélsőséges esetek feltárása és kezelése</li>
+         <li>különböző próba adatokkal futtatjuk a programot</li>
+         <li>a tesztadatokat úgy kell összeállítani, hogy azok minden lehetséges értéket felvegyenek</li>
+     </ul>
+     <p>Teszteléskor figyelni kell arra, hogy</p>
+     <ul>
+         <li>pontosan úgy működik-e program, ahogy az a feladatleírásban szerepel?</li>
+         <li>Nem lehet-e elrontani?</li>
+         <li>Elég hatékony-e?</li>
+         <li>A program felhasználó barát-e?</li>
+         <li>Teljes méretben szolgálja-e a felhasználót?</li>
+         <li>Szép-e a program?</li>
+         <li>Sehol sem idegesítő?</li>
+     </ul>
+     <p>Teszelési fázis dokumentációja a <i>kész program és tesztadatok listája</i></p>
+<h2>Dokumentálás</h2>
+     <p>Minden fázisnak meg van a maga terméke, dokumentációja. A program fejlesztésének befejeztével a teljes dokumentációt meg kell őrizni. Csak így lehet a késsőbiekben a programon változtatni.  </p>
+     <p>A fejlesztő dokumentáció részei:</p>
+     <ul>
+        <li>Feladatspecifikáció</li>
+        <li>Programterv</li>
+        <li>Forrásprogram</li>
+        <li>Kész program</li>
+        <li>Teszt feladatok</li>
+        <li>+1 felhasználó kap a kész rendszerhez egy a program használatával kapcsolatos információkat tartalmazó dokumentációt.</li>
+     </ul>
+     <p>felhasználói dokumentáció részei:</p>
+     <ul>
+        <li>Feladat leírás</li>
+        <li>Hardver környezet:</li>
+        <li>Számítógép típusa</li>
+        <li>minimális konfiguráció</li>
+        <li>Szoftver környezet</li>
+        <li>operációs rendszer</li>
+        <li>futtatáshoz szükséges kiegészítők szoftverek. </li>
+        <li>fejlesztési környezet, program nyelv</li>
+        <li>Program betöltése, indítása</li>
+        <li>a program használatának részletes leírása</li>
+        <li>billentyűk használata</li>
+        <li>Működési leírás minden részletre kitérően</li>
+        <li>segítség kérés lehetőségei</li>
+        <li>képernyő tervek, lista tervek</li>
+        <li>hibaüzenetek felsorolása, útmutatás, teendők</li>
+        <li>biztonsági előírások (adatvesztés elkerülése)</li>
+     </ul>
+</body>
+</html>
